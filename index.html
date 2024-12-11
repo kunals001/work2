@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="dashboard">
+            <div class="search-sec">
+                <h2><i class="fa-solid fa-magnifying-glass"></i> Search</h2>
+
+                <form action="">
+                    <div class="over">Search Student*</div>
+                    <input class="student-search" type="text" placeholder="Search Student">
+                    <div class="over">Select Class*</div>
+                    <select class="select-class" name="Select">
+                        <option value="" disabled selected>Select</option>
+                        <option value="XII">XII</option>
+                    </select>
+
+                    <p>or, Reload All</p>
+                </form>
+            </div>
+
+            <div class="dash-details">
+                <div class="">
+                    <div class="dash-btn">
+                        <button class="btn-c">Copy</button>
+                        <button class="btn-c">CSV</button>
+                        <button class="btn-c">Excel</button>
+                        <button class="btn-c">PDF</button>
+                        <button class="btn-c">Print</button>
+
+                        <select class="btn-sel" class="column">
+                            <option value="" disabled selected>Column visibility</option>
+                            <option value="XII">XII</option>
+                        </select>
+
+                        <div class="dash-textin">
+                            <h6>Search:</h6>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+
+
+                    <div class="dash-panel">
+                    <h4>ID <i class=" up fa-solid fa-arrow-up-long"></i> <i class=" low fa-solid fa-arrow-down-long"></i></h4>
+                    <h4>Student Name <i class=" up fa-solid fa-arrow-up-long"></i> <i class=" low fa-solid fa-arrow-down-long"></i></h4>
+                    <h4>Class <i class=" up fa-solid fa-arrow-up-long"></i> <i class=" low fa-solid fa-arrow-down-long"></i></h4>
+                    <h4>Username <i class=" up fa-solid fa-arrow-up-long"></i> <i class=" low fa-solid fa-arrow-down-long"></i></h4>
+                    <h4>Password <i class=" up fa-solid fa-arrow-up-long"></i> <i class=" low fa-solid fa-arrow-down-long"></i></h4>
+                    <h4>Action <i class=" up fa-solid fa-arrow-up-long"></i> <i class=" low fa-solid fa-arrow-down-long"></i></h4>
+                    </div>
+
+
+                    <div class="student-det">
+                    <p class="id">001</p>
+                    <p class="std-name">Rohit Sharma</p>
+                    <p class="std-class">Nursery</p>
+                    <div class="std-in">
+                        <div class="male"><i class="fa-solid fa-user-tie"></i></div>
+                        <input type="text"/>
+                        <div class="lock"><i class="fa-solid fa-lock"></i></div>
+                        <input type="password"/>
+                    </div>
+                    
+                    <div class="det-icon">
+                        <i class="fa-solid fa-file-export"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="page-text">
+                        <p>Showing <span>1</span> to <span>20</span> of <span>745</span> entries</p>
+                    </div>
+                    <div class="page-next">
+                        <p>Previous</p>
+                        <div class="num">
+                            <p>1</p>
+                        </div>
+                        <p>Next</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
